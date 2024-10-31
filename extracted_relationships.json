@@ -48,49 +48,41 @@
     "sentiment": "positive"
   },
   {
-    "from": "Bohr",
-    "to": "I",
-    "place": "Cambridge, UK",
-    "type": "Intellectual Collaboration",
-    "theme_type": "Ambition and Power",
-    "sentiment": "positive"
-  },
-  {
-    "from": "Strauss",
-    "to": "Oppenheimer",
+    "from": "Oppenheimer",
+    "to": "Strauss",
     "place": "Princeton, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
   },
   {
+    "from": "Bohr",
+    "to": "Oppenheimer",
+    "place": "Cambridge, UK",
+    "type": "Intellectual Collaboration",
+    "theme_type": "Love and Romance",
+    "sentiment": "positive"
+  },
+  {
+    "from": "Oppenheimer",
+    "to": "Strauss",
+    "place": "Princeton, USA",
+    "type": "professional mentorship",
+    "theme_type": "Ambition and Power",
+    "sentiment": "positive"
+  },
+  {
     "from": "Strauss",
     "to": "Oppenheimer",
     "place": "Princeton, USA",
-    "type": "professional mentorship",
-    "theme_type": "Ambition and Power",
-    "sentiment": "positive"
-  },
-  {
-    "from": "Strauss",
-    "to": "Einstein",
-    "place": "Princeton, USA",
-    "type": "intellectual collaboration",
-    "theme_type": "Knowledge and Discovery",
-    "sentiment": "neutral"
-  },
-  {
-    "from": "Oppenheimer",
-    "to": "Strauss",
-    "place": "Princeton, USA",
-    "type": "professional mentorship",
-    "theme_type": "Ambition and Power",
+    "type": "support",
+    "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
   },
   {
     "from": "Oppenheimer",
     "to": "Strauss",
-    "place": "Pasadena, USA",
+    "place": "New York, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
@@ -121,7 +113,7 @@
   },
   {
     "from": "Oppenheimer",
-    "to": "Blackett",
+    "to": "Bohr",
     "place": "Cambridge, USA",
     "type": "Support",
     "theme_type": "Friendship and Loyalty",
@@ -264,16 +256,16 @@
     "sentiment": "negative"
   },
   {
-    "from": "Strauss",
-    "to": "Senator Bartlett",
+    "from": "Oppenheimer",
+    "to": "Strauss",
     "place": "Washington D.C., USA",
     "type": "Political Rivalry",
-    "theme_type": "Justice and Injustice",
+    "theme_type": "Ambition and Power",
     "sentiment": "negative"
   },
   {
     "from": "Strauss",
-    "to": "Bartlett",
+    "to": "Senator Bartlett",
     "place": "Washington D.C., USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
@@ -384,6 +376,14 @@
     "sentiment": "positive"
   },
   {
+    "from": "Tatlock",
+    "to": "Oppenheimer",
+    "place": "Berkeley, USA",
+    "type": "professional mentorship",
+    "theme_type": "Ambition and Power",
+    "sentiment": "negative"
+  },
+  {
     "from": "Oppenheimer",
     "to": "Lawrence",
     "place": "Berkeley, USA",
@@ -468,7 +468,7 @@
     "to": "Serber",
     "place": "Berkeley, USA",
     "type": "Intellectual Collaboration",
-    "theme_type": "Friendship and Loyalty",
+    "theme_type": "Knowledge Sharing",
     "sentiment": "positive"
   },
   {
@@ -530,18 +530,18 @@
   {
     "from": "Oppenheimer",
     "to": "Kitty",
-    "place": "San Francisco, USA",
-    "type": "Personal Conflict",
-    "theme_type": "Betrayal and Conflict",
-    "sentiment": "negative"
-  },
-  {
-    "from": "Oppenheimer",
-    "to": "Tatlock",
-    "place": "",
+    "place": "Chicago, USA",
     "type": "Support",
     "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
+  },
+  {
+    "from": "Tatlock",
+    "to": "Oppenheimer",
+    "place": "",
+    "type": "Personal Conflict",
+    "theme_type": "Betrayal and Conflict",
+    "sentiment": "negative"
   },
   {
     "from": "Oppenheimer",
@@ -578,7 +578,7 @@
   {
     "from": "Oppenheimer",
     "to": "Lawrence",
-    "place": "New Mexico, USA",
+    "place": "Pasadena, USA",
     "type": "personal conflict",
     "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
@@ -593,7 +593,7 @@
   },
   {
     "from": "Strauss",
-    "to": "Senator Aide",
+    "to": "AIDE",
     "place": "Washington D.C., USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
@@ -608,12 +608,28 @@
     "sentiment": "negative"
   },
   {
-    "from": "Oppenheimer",
-    "to": "AEC",
+    "from": "Strauss",
+    "to": "Oppenheimer",
     "place": "Washington D.C., USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
-    "sentiment": "positive"
+    "sentiment": "negative"
+  },
+  {
+    "from": "Borden",
+    "to": "FBI",
+    "place": "Washington D.C., USA",
+    "type": "Betrayal",
+    "theme_type": "Betrayal and Conflict",
+    "sentiment": "negative"
+  },
+  {
+    "from": "Oppenheimer",
+    "to": "Power Brokers in Washington",
+    "place": "Washington D.C., USA",
+    "type": "Personal Conflict",
+    "theme_type": "Ambition and Power",
+    "sentiment": "negative"
   },
   {
     "from": "Oppenheimer",
@@ -634,7 +650,7 @@
   {
     "from": "Oppenheimer",
     "to": "Chevalier",
-    "place": "Chevalier House, USA",
+    "place": "Chevalier House, New Mexico, USA",
     "type": "Support",
     "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
@@ -643,21 +659,21 @@
     "from": "Kitty",
     "to": "Oppenheimer",
     "place": "New Mexico, USA",
-    "type": "Romantic Relationship",
-    "theme_type": "Love and Romance",
+    "type": "Personal Conflict",
+    "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
   {
     "from": "Groves",
     "to": "Lawrence",
-    "place": "President's Dining Hall, USA",
+    "place": "President's Dining Hall, Berkeley, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "neutral"
   },
   {
-    "from": "Oppenheimer",
-    "to": "Groves",
+    "from": "Groves",
+    "to": "Oppenheimer",
     "place": "Berkeley, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
@@ -665,11 +681,11 @@
   },
   {
     "from": "Groves",
-    "to": "Oppenheimer",
+    "to": "Nichols",
     "place": "Washington D.C., USA",
-    "type": "Political Rivalry",
-    "theme_type": "Betrayal and Conflict",
-    "sentiment": "negative"
+    "type": "Professional Mentorship",
+    "theme_type": "Ambition and Power",
+    "sentiment": "neutral"
   },
   {
     "from": "Oppenheimer",
@@ -697,18 +713,10 @@
   },
   {
     "from": "Oppenheimer",
-    "to": "Lawrence",
-    "place": "Berkeley, USA",
-    "type": "Support",
-    "theme_type": "Friendship and Loyalty",
-    "sentiment": "positive"
-  },
-  {
-    "from": "Oppenheimer",
-    "to": "Szilard",
-    "place": "Chicago, USA",
+    "to": "Gadget (Narrator)",
+    "place": "",
     "type": "Intellectual Collaboration",
-    "theme_type": "Ambition and Power",
+    "theme_type": "Justice and Injustice",
     "sentiment": "positive"
   },
   {
@@ -720,9 +728,9 @@
     "sentiment": "positive"
   },
   {
-    "from": "Oppenheimer",
-    "to": "Groves",
-    "place": "Santa Fe, USA",
+    "from": "Groves",
+    "to": "Oppenheimer",
+    "place": "Santa Fe to Boston, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
@@ -753,7 +761,7 @@
   },
   {
     "from": "Oppenheimer",
-    "to": "Condon",
+    "to": "Condron",
     "place": "Corridor, MIT, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
@@ -777,8 +785,8 @@
   },
   {
     "from": "Groves",
-    "to": "Concerned Scientist",
-    "place": "University of Michigan, USA",
+    "to": "Oppenheimer",
+    "place": "Office, University of Michigan, USA",
     "type": "Political Rivalry",
     "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
@@ -786,7 +794,7 @@
   {
     "from": "Oppenheimer",
     "to": "Feynman",
-    "place": "Princeton Quadrangle, USA",
+    "place": "Quadrangle, Princeton, USA",
     "type": "Intellectual Collaboration",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
@@ -812,8 +820,8 @@
     "to": "Bohr",
     "place": "Copenhagen, Denmark",
     "type": "Intellectual Collaboration",
-    "theme_type": "Love and Romance",
-    "sentiment": "positive"
+    "theme_type": "Betrayal and Conflict",
+    "sentiment": "negative"
   },
   {
     "from": "Oppenheimer",
@@ -868,15 +876,15 @@
     "to": "Einstein",
     "place": "Princeton, USA",
     "type": "Intellectual Collaboration",
-    "theme_type": "Ambition and Power",
-    "sentiment": "negative"
+    "theme_type": "Love and Romance",
+    "sentiment": "positive"
   },
   {
     "from": "Oppenheimer",
-    "to": "G\u00f6del",
-    "place": "Princeton, USA",
-    "type": "Personal Conflict",
-    "theme_type": "Betrayal and Conflict",
+    "to": "Teller",
+    "place": "",
+    "type": "Professional Mentorship",
+    "theme_type": "Ambition and Power",
     "sentiment": "negative"
   },
   {
@@ -946,7 +954,7 @@
   {
     "from": "Strauss",
     "to": "Oppenheimer",
-    "place": "Los Alamos, USA",
+    "place": "New Mexico, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
@@ -955,7 +963,7 @@
     "from": "Strauss",
     "to": "Einstein",
     "place": "Washington D.C., USA",
-    "type": "political rivalry",
+    "type": "intellectual collaboration",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
   },
@@ -964,7 +972,7 @@
     "to": "Oppenheimer",
     "place": "Los Alamos, USA",
     "type": "professional mentorship",
-    "theme_type": "Ambition and Power",
+    "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
   {
@@ -974,14 +982,6 @@
     "type": "intellectual collaboration",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
-  },
-  {
-    "from": "Strauss",
-    "to": "Senate Aide",
-    "place": "Washington D.C., USA",
-    "type": "professional mentorship",
-    "theme_type": "Ambition and Power",
-    "sentiment": "negative"
   },
   {
     "from": "Oppenheimer",
@@ -1059,7 +1059,7 @@
     "from": "Oppenheimer",
     "to": "Fuchs",
     "place": "Los Alamos, USA",
-    "type": "professional mentorship",
+    "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
   },
@@ -1067,7 +1067,7 @@
     "from": "Serber",
     "to": "Oppenheimer",
     "place": "Los Alamos, USA",
-    "type": "support",
+    "type": "Support",
     "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
   },
@@ -1075,14 +1075,14 @@
     "from": "Groves",
     "to": "Oppenheimer",
     "place": "Los Alamos, USA",
-    "type": "professional mentorship",
+    "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
   },
   {
     "from": "Groves",
     "to": "Oppenheimer",
-    "place": "New Mexico, USA",
+    "place": "Los Alamos, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
@@ -1090,15 +1090,15 @@
   {
     "from": "Nichols",
     "to": "Oppenheimer",
-    "place": "New Mexico, USA",
+    "place": "Los Alamos, USA",
     "type": "Support",
     "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
   },
   {
-    "from": "Strauss",
-    "to": "Nichols",
-    "place": "Chicago, USA",
+    "from": "Groves",
+    "to": "Strauss",
+    "place": "Los Alamos, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
@@ -1138,7 +1138,7 @@
   {
     "from": "Oppenheimer",
     "to": "Szilard",
-    "place": "Los Alamos, USA",
+    "place": "Chicago, USA",
     "type": "Intellectual Collaboration",
     "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
@@ -1147,24 +1147,32 @@
     "from": "Oppenheimer",
     "to": "Fermi",
     "place": "Chicago, USA",
-    "type": "Professional Mentorship",
+    "type": "Intellectual Collaboration",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
   },
   {
     "from": "Oppenheimer",
-    "to": "Hornig",
+    "to": "Glasses",
+    "place": "Chicago, USA",
+    "type": "Professional Mentorship",
+    "theme_type": "Ambition and Power",
+    "sentiment": "negative"
+  },
+  {
+    "from": "Oppenheimer",
+    "to": "Condon",
     "place": "Los Alamos, USA",
-    "type": "Support",
-    "theme_type": "Friendship and Loyalty",
+    "type": "Professional Mentorship",
+    "theme_type": "Ambition and Power",
     "sentiment": "positive"
   },
   {
-    "from": "Condon",
-    "to": "Groves",
+    "from": "Groves",
+    "to": "Condon",
     "place": "Los Alamos, USA",
-    "type": "Professional Conflict",
-    "theme_type": "Betrayal and Conflict",
+    "type": "Political Rivalry",
+    "theme_type": "Ambition and Power",
     "sentiment": "negative"
   },
   {
@@ -1208,19 +1216,27 @@
     "sentiment": "positive"
   },
   {
-    "from": "Oppenheimer",
-    "to": "Strauss",
-    "place": "Los Alamos, USA",
+    "from": "Lawrence",
+    "to": "Oppenheimer",
+    "place": "Berkeley, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
+    "sentiment": "positive"
+  },
+  {
+    "from": "Strauss",
+    "to": "Oppenheimer",
+    "place": "Los Alamos, USA",
+    "type": "Political Rivalry",
+    "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
   {
-    "from": "Oppenheimer",
-    "to": "Nichols",
+    "from": "Nichols",
+    "to": "Oppenheimer",
     "place": "Los Alamos, USA",
     "type": "Professional Mentorship",
-    "theme_type": "Betrayal and Conflict",
+    "theme_type": "Ambition and Power",
     "sentiment": "negative"
   },
   {
@@ -1273,11 +1289,11 @@
   },
   {
     "from": "Kitty",
-    "to": "Robb",
-    "place": "Atomic Energy Commission, Washington D.C., USA",
-    "type": "Professional Mentorship",
-    "theme_type": "Ambition and Power",
-    "sentiment": "negative"
+    "to": "Tatlock",
+    "place": "Hotel Room 2022, Washington D.C., USA",
+    "type": "Support",
+    "theme_type": "Friendship and Loyalty",
+    "sentiment": "positive"
   },
   {
     "from": "Oppenheimer",
@@ -1314,7 +1330,7 @@
   {
     "from": "Groves",
     "to": "Oppenheimer",
-    "place": "Train, Santa Fe to Chicago, USA",
+    "place": "Train from Santa Fe to Chicago, USA",
     "type": "Support",
     "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
@@ -1345,15 +1361,7 @@
   },
   {
     "from": "Pash",
-    "to": "Johnson",
-    "place": "Los Alamos, USA",
-    "type": "Professional Mentorship",
-    "theme_type": "Ambition and Power",
-    "sentiment": "neutral"
-  },
-  {
-    "from": "Groves",
-    "to": "Pash",
+    "to": "Groves",
     "place": "Los Alamos, USA",
     "type": "Political Rivalry",
     "theme_type": "Betrayal and Conflict",
@@ -1523,7 +1531,7 @@
     "from": "Oppenheimer",
     "to": "Kitty",
     "place": "Los Alamos, USA",
-    "type": "Personal Conflict",
+    "type": "personal conflict",
     "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
@@ -1531,7 +1539,7 @@
     "from": "Oppenheimer",
     "to": "Neddermeyer",
     "place": "Los Alamos, USA",
-    "type": "Professional Mentorship",
+    "type": "professional mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
   },
@@ -1539,7 +1547,7 @@
     "from": "Oppenheimer",
     "to": "Kistiakowsky",
     "place": "Los Alamos, USA",
-    "type": "Professional Mentorship",
+    "type": "professional mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
   },
@@ -1592,34 +1600,18 @@
     "sentiment": "negative"
   },
   {
-    "from": "Bush",
-    "to": "Oppenheimer",
-    "place": "New Mexico, USA",
-    "type": "Support",
-    "theme_type": "Friendship and Loyalty",
-    "sentiment": "positive"
-  },
-  {
-    "from": "Strauss",
+    "from": "Oppenheimer",
     "to": "Bush",
     "place": "New Mexico, USA",
-    "type": "Professional Mentorship",
-    "theme_type": "Ambition and Power",
-    "sentiment": "negative"
-  },
-  {
-    "from": "Fermi",
-    "to": "Rabi",
-    "place": "New Mexico, USA",
-    "type": "Intellectual Collaboration",
-    "theme_type": "Ambition and Power",
+    "type": "Political Rivalry",
+    "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
   {
     "from": "Strauss",
     "to": "Oppenheimer",
     "place": "Washington D.C., USA",
-    "type": "Professional Mentorship",
+    "type": "Political Rivalry",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
   },
@@ -1731,8 +1723,8 @@
     "from": "Groves",
     "to": "Kistiakowsky",
     "place": "Trinity Test Site, USA",
-    "type": "Professional Mentorship",
-    "theme_type": "Betrayal and Conflict",
+    "type": "Intellectual Collaboration",
+    "theme_type": "Justice and Injustice",
     "sentiment": "negative"
   },
   {
@@ -1744,10 +1736,10 @@
     "sentiment": "positive"
   },
   {
-    "from": "Groves",
-    "to": "Szilard",
+    "from": "Szilard",
+    "to": "Oppenheimer",
     "place": "Washington D.C., USA",
-    "type": "Professional Mentorship",
+    "type": "Intellectual Collaboration",
     "theme_type": "Justice and Injustice",
     "sentiment": "negative"
   },
@@ -1765,7 +1757,7 @@
     "place": "Chicago, USA",
     "type": "Intellectual Collaboration",
     "theme_type": "Justice and Injustice",
-    "sentiment": "positive"
+    "sentiment": "negative"
   },
   {
     "from": "Oppenheimer",
@@ -1781,7 +1773,7 @@
     "place": "",
     "type": "Political Rivalry",
     "theme_type": "Ambition and Power",
-    "sentiment": "negative"
+    "sentiment": "positive"
   },
   {
     "from": "Oppenheimer",
@@ -1833,11 +1825,19 @@
   },
   {
     "from": "Groves",
-    "to": "Byrnes",
-    "place": "Washington D.C., USA",
+    "to": "Marshall",
+    "place": "New Mexico, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
+  },
+  {
+    "from": "Byrnes",
+    "to": "Bush",
+    "place": "Washington D.C., USA",
+    "type": "Political Rivalry",
+    "theme_type": "Betrayal and Conflict",
+    "sentiment": "negative"
   },
   {
     "from": "Groves",
@@ -2000,12 +2000,12 @@
     "sentiment": "negative"
   },
   {
-    "from": "Oppenheimer",
+    "from": "Weatherman",
     "to": "Groves",
     "place": "South Observation Post, USA",
     "type": "Support",
-    "theme_type": "Friendship and Loyalty",
-    "sentiment": "positive"
+    "theme_type": "Justice and Injustice",
+    "sentiment": "negative"
   },
   {
     "from": "Oppenheimer",
@@ -2024,10 +2024,18 @@
     "sentiment": "positive"
   },
   {
-    "from": "Feynman",
-    "to": "Teller",
+    "from": "Fermi",
+    "to": "Oppenheimer",
     "place": "Trinity Test Site, USA",
-    "type": "intellectual collaboration",
+    "type": "Intellectual Collaboration",
+    "theme_type": "Ambition and Power",
+    "sentiment": "positive"
+  },
+  {
+    "from": "Teller",
+    "to": "Feynman",
+    "place": "Trinity Test Site, USA",
+    "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
   },
@@ -2035,7 +2043,7 @@
     "from": "Groves",
     "to": "Oppenheimer",
     "place": "Base Camp, Trinity Test Site, USA",
-    "type": "professional mentorship",
+    "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
   },
@@ -2043,8 +2051,8 @@
     "from": "Bainbridge",
     "to": "Oppenheimer",
     "place": "Trinity Test Site, USA",
-    "type": "professional collaboration",
-    "theme_type": "Ambition and Power",
+    "type": "Support",
+    "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
   },
   {
@@ -2075,7 +2083,7 @@
     "from": "Groves",
     "to": "Bush",
     "place": "Trinity Test Site, USA",
-    "type": "professional collaboration",
+    "type": "professional relationship",
     "theme_type": "Ambition and Power",
     "sentiment": "neutral"
   },
@@ -2130,7 +2138,7 @@
   {
     "from": "Rabi",
     "to": "Feynman",
-    "place": "Base Camp, Trinity Test Site, USA",
+    "place": "Trinity Test Site, USA",
     "type": "Support",
     "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
@@ -2141,7 +2149,15 @@
     "place": "Base Camp, Trinity Test Site, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
-    "sentiment": "negative"
+    "sentiment": "neutral"
+  },
+  {
+    "from": "Oppenheimer",
+    "to": "Kitty",
+    "place": "Trinity Test Site, USA",
+    "type": "Romantic Relationship",
+    "theme_type": "Love and Romance",
+    "sentiment": "positive"
   },
   {
     "from": "Oppenheimer",
@@ -2170,7 +2186,7 @@
   {
     "from": "Oppenheimer",
     "to": "Groves",
-    "place": "Los Alamos, USA",
+    "place": "Washington D.C., USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
@@ -2195,15 +2211,15 @@
     "from": "Oppenheimer",
     "to": "Kitty",
     "place": "Los Alamos, USA",
-    "type": "Personal Conflict",
-    "theme_type": "Betrayal and Conflict",
-    "sentiment": "negative"
+    "type": "romantic relationship",
+    "theme_type": "Love and Romance",
+    "sentiment": "positive"
   },
   {
     "from": "Oppenheimer",
     "to": "Groves",
     "place": "Los Alamos, USA",
-    "type": "Professional Mentorship",
+    "type": "professional mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "positive"
   },
@@ -2323,24 +2339,24 @@
     "from": "Strauss",
     "to": "Lomanitz",
     "place": "Railroad, USA",
-    "type": "Support",
-    "theme_type": "Friendship and Loyalty",
-    "sentiment": "positive"
+    "type": "Professional Mentorship",
+    "theme_type": "Ambition and Power",
+    "sentiment": "negative"
   },
   {
     "from": "Strauss",
     "to": "Chevalier",
     "place": "France",
-    "type": "Support",
-    "theme_type": "Friendship and Loyalty",
-    "sentiment": "positive"
+    "type": "Professional Mentorship",
+    "theme_type": "Ambition and Power",
+    "sentiment": "negative"
   },
   {
     "from": "Ruth",
     "to": "Strauss",
     "place": "Plaza Hotel, USA",
-    "type": "Admiration",
-    "theme_type": "Love and Romance",
+    "type": "Support",
+    "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
   },
   {
@@ -2378,7 +2394,7 @@
   {
     "from": "Strauss",
     "to": "Borden",
-    "place": "Washington D.C., USA",
+    "place": "Los Alamos, USA",
     "type": "Personal Conflict",
     "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
@@ -2417,11 +2433,11 @@
   },
   {
     "from": "Oppenheimer",
-    "to": "Groves",
+    "to": "Teller",
     "place": "Los Alamos, USA",
-    "type": "Support",
-    "theme_type": "Friendship and Loyalty",
-    "sentiment": "positive"
+    "type": "Personal Conflict",
+    "theme_type": "Betrayal and Conflict",
+    "sentiment": "negative"
   },
   {
     "from": "Strauss",
@@ -2570,7 +2586,7 @@
   {
     "from": "Garrison",
     "to": "Oppenheimer",
-    "place": "Washington D.C., USA",
+    "place": "New Mexico, USA",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
@@ -2578,42 +2594,50 @@
   {
     "from": "Robb",
     "to": "Oppenheimer",
-    "place": "Washington D.C., USA",
+    "place": "New Mexico, USA",
     "type": "Personal Conflict",
     "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
   {
     "from": "Oppenheimer",
-    "to": "Robb",
-    "place": "Room 2022, USA",
+    "to": "Chevalier",
+    "place": "Pasadena, USA",
+    "type": "Romantic Relationship",
+    "theme_type": "Betrayal and Conflict",
+    "sentiment": "negative"
+  },
+  {
+    "from": "Garrison",
+    "to": "Rabi",
+    "place": "Room 2022, AEC",
     "type": "Professional Mentorship",
     "theme_type": "Ambition and Power",
-    "sentiment": "negative"
+    "sentiment": "positive"
   },
   {
     "from": "Oppenheimer",
     "to": "Rabi",
-    "place": "Corridor outside Room 2022, USA",
-    "type": "Intellectual Collaboration",
-    "theme_type": "Justice and Injustice",
+    "place": "Room 2022, AEC",
+    "type": "Support",
+    "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
   },
   {
     "from": "Lawrence",
     "to": "Strauss",
     "place": "Pasadena, USA",
-    "type": "Personal Conflict",
+    "type": "Betrayal",
     "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
   {
-    "from": "Oppenheimer",
-    "to": "Rabi",
-    "place": "Room 2022, AEC, USA",
-    "type": "Support",
-    "theme_type": "Friendship and Loyalty",
-    "sentiment": "positive"
+    "from": "Lawrence",
+    "to": "Oppenheimer",
+    "place": "Pasadena, USA",
+    "type": "Personal Conflict",
+    "theme_type": "Betrayal and Conflict",
+    "sentiment": "negative"
   },
   {
     "from": "Rabi",
@@ -2672,35 +2696,11 @@
     "sentiment": "positive"
   },
   {
-    "from": "Robb",
-    "to": "Garrison",
-    "place": "INT. ROOM 2022, ATOMIC ENERGY COMMISSION -- DAY (COLOUR)",
-    "type": "Professional Mentorship",
-    "theme_type": "Ambition and Power",
-    "sentiment": "positive"
-  },
-  {
     "from": "Garrison",
-    "to": "Chairman",
+    "to": "Robb",
     "place": "INT. ROOM 2022, ATOMIC ENERGY COMMISSION -- DAY (COLOUR)",
-    "type": "Professional Mentorship",
-    "theme_type": "Ambition and Power",
-    "sentiment": "negative"
-  },
-  {
-    "from": "Borden",
-    "to": "Oppenheimer",
-    "place": "INT. ROOM 2022, ATOMIC ENERGY COMMISSION -- DAY (COLOUR)",
-    "type": "Intellectual Collaboration",
-    "theme_type": "Ambition and Power",
-    "sentiment": "positive"
-  },
-  {
-    "from": "Garrison",
-    "to": "Borden",
-    "place": "INT. ROOM 2022, ATOMIC ENERGY COMMISSION -- DAY (COLOUR)",
-    "type": "Professional Mentorship",
-    "theme_type": "Ambition and Power",
+    "type": "Personal Conflict",
+    "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
   {
@@ -2723,7 +2723,7 @@
     "from": "Borden",
     "to": "Oppenheimer",
     "place": "Washington D.C., USA",
-    "type": "Professional Mentorship",
+    "type": "Political Rivalry",
     "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
@@ -2819,47 +2819,47 @@
     "from": "Robb",
     "to": "Groves",
     "place": "Washington D.C., USA",
-    "type": "Political Rivalry",
+    "type": "Professional Relationship",
     "theme_type": "Ambition and Power",
-    "sentiment": "negative"
+    "sentiment": "neutral"
   },
   {
     "from": "Garrison",
     "to": "Oppenheimer",
     "place": "Los Alamos, USA",
-    "type": "Support",
+    "type": "Professional Relationship",
     "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
+  },
+  {
+    "from": "Oppenheimer",
+    "to": "Garrison",
+    "place": "Room 2022, Atomic Energy Commission, USA",
+    "type": "Professional Mentorship",
+    "theme_type": "Ambition and Power",
+    "sentiment": "negative"
   },
   {
     "from": "Oppenheimer",
     "to": "Kitty",
-    "place": "Room 2022, Atomic Energy Commission, USA",
-    "type": "Support",
-    "theme_type": "Friendship and Loyalty",
+    "place": "Corridor outside Room 2022, USA",
+    "type": "Romantic Relationship",
+    "theme_type": "Love and Romance",
     "sentiment": "positive"
   },
   {
-    "from": "Oppenheimer",
-    "to": "Garrison",
-    "place": "Corridor outside Room 2022, USA",
-    "type": "Personal Conflict",
+    "from": "Garrison",
+    "to": "Kitty",
+    "place": "Room 2022, Atomic Energy Commission, USA",
+    "type": "Professional Conflict",
     "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
-  },
-  {
-    "from": "Kitty",
-    "to": "Garrison",
-    "place": "Room 2022, Atomic Energy Commission, USA",
-    "type": "Support",
-    "theme_type": "Friendship and Loyalty",
-    "sentiment": "positive"
   },
   {
     "from": "Hill",
     "to": "Oppenheimer",
     "place": "Washington D.C., USA",
-    "type": "Professional Mentorship",
+    "type": "professional mentorship",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
   },
@@ -2867,15 +2867,15 @@
     "from": "Strauss",
     "to": "Hill",
     "place": "Washington D.C., USA",
-    "type": "Political Rivalry",
+    "type": "political rivalry",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
   },
   {
     "from": "Robb",
     "to": "Kitty Oppenheimer",
-    "place": "Washington D.C., USA",
-    "type": "Personal Conflict",
+    "place": "New York, USA",
+    "type": "personal conflict",
     "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
@@ -2930,7 +2930,7 @@
   {
     "from": "Einstein",
     "to": "Oppenheimer",
-    "place": "Olden Manor, Princeton",
+    "place": "Princeton, USA",
     "type": "Intellectual Collaboration",
     "theme_type": "Love and Romance",
     "sentiment": "positive"
@@ -2955,16 +2955,16 @@
     "from": "Strauss",
     "to": "Oppenheimer",
     "place": "Los Alamos, USA",
-    "type": "Personal Conflict",
-    "theme_type": "Betrayal and Conflict",
+    "type": "Professional Mentorship",
+    "theme_type": "Ambition and Power",
     "sentiment": "negative"
   },
   {
-    "from": "Oppenheimer",
-    "to": "Einstein",
-    "place": "lake in Los Alamos, USA",
-    "type": "Intellectual Collaboration",
-    "theme_type": "Ambition and Power",
+    "from": "Einstein",
+    "to": "Oppenheimer",
+    "place": "Berkeley, USA",
+    "type": "Personal Conflict",
+    "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
   {
@@ -2972,7 +2972,7 @@
     "to": "Robb",
     "place": "Atomic Energy Commission, USA",
     "type": "Professional Mentorship",
-    "theme_type": "Justice and Injustice",
+    "theme_type": "Ambition and Power",
     "sentiment": "negative"
   },
   {
@@ -3064,9 +3064,9 @@
     "sentiment": "positive"
   },
   {
-    "from": "Garrison",
+    "from": "Kitty",
     "to": "Oppenheimer",
-    "place": "New Mexico, USA",
+    "place": "Pasadena, USA",
     "type": "support",
     "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
@@ -3080,14 +3080,6 @@
     "sentiment": "negative"
   },
   {
-    "from": "Kitty",
-    "to": "Oppenheimer",
-    "place": "New Mexico, USA",
-    "type": "support",
-    "theme_type": "Friendship and Loyalty",
-    "sentiment": "positive"
-  },
-  {
     "from": "Strauss",
     "to": "Senate Aide",
     "place": "Washington D.C., USA",
@@ -3098,8 +3090,8 @@
   {
     "from": "Strauss",
     "to": "Senate Aide",
-    "place": "Princeton, USA",
-    "type": "Personal Conflict",
+    "place": "Washington D.C., USA",
+    "type": "Political Rivalry",
     "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
@@ -3107,14 +3099,14 @@
     "from": "Einstein",
     "to": "Strauss",
     "place": "Princeton, USA",
-    "type": "Intellectual Collaboration",
-    "theme_type": "Ambition and Power",
+    "type": "Personal Conflict",
+    "theme_type": "Betrayal and Conflict",
     "sentiment": "negative"
   },
   {
-    "from": "Einstein",
+    "from": "Kitty",
     "to": "Oppenheimer",
-    "place": "Princeton, USA",
+    "place": "White House, USA",
     "type": "Support",
     "theme_type": "Friendship and Loyalty",
     "sentiment": "positive"
@@ -3149,7 +3141,7 @@
     "place": "Princeton, USA",
     "type": "intellectual collaboration",
     "theme_type": "Love and Romance",
-    "sentiment": "positive"
+    "sentiment": "negative"
   },
   {
     "from": "Strauss",
@@ -3158,13 +3150,5 @@
     "type": "political rivalry",
     "theme_type": "Ambition and Power",
     "sentiment": "negative"
-  },
-  {
-    "from": "Teller",
-    "to": "Oppenheimer",
-    "place": "Princeton, USA",
-    "type": "support",
-    "theme_type": "Friendship and Loyalty",
-    "sentiment": "positive"
   }
 ]
